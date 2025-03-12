@@ -1,0 +1,18 @@
+# Log Format: [TIMESTAMP] LEVEL MESSAGE {optional JSON payload}
+# Example: [2025-02-20T10:00:00Z] ERROR Database timeout {"userId": 123, "ip": "192.168.1.1"}
+
+[2025-03-10T14:23:17Z] ERROR Database connection error {"userId": 4572, "ip": "192.168.43.21", "requestId": "req-f8d2e3a1", "duration": 4823}
+[2025-03-07T09:12:05Z] WARN API rate limit exceeded {"userId": 1289, "ip": "10.45.67.89", "status": 429}
+[2025-03-12T02:45:30Z] INFO User login successful {"userId": 7823, "ip": "172.16.32.101"}
+[2025-02-18T21:33:42Z] CRITICAL Service unavailable {"userId": 5621, "ip": "192.168.1.54", "duration": 3752, "status": 503}
+[2025-03-01T16:27:53Z] DEBUG Cache miss {"userId": 2391, "ip": "10.100.43.12"}
+[2025-02-25T11:08:36Z] ERROR Authentication failed {"userId": 6783, "ip": "192.168.22.78", "requestId": "req-a7d9c2b3"}
+[2025-03-05T19:51:24Z] WARN Memory usage high {"userId": 3412, "ip": "172.16.45.67", "status": 200}
+[2025-02-22T05:39:17Z] INFO Database query completed {"userId": 9241, "ip": "10.75.32.90", "duration": 1247}
+[2025-03-09T13:14:08Z] ERROR File not found {"userId": 8765, "ip": "192.168.10.25", "status": 404}
+[2025-02-28T07:46:59Z] DEBUG Request timeout {"userId": 2134, "ip": "172.16.18.43", "requestId": "req-e6f1d4c2", "duration": 4998}
+[2025-03-04T22:31:40Z] CRITICAL Resource locked {"userId": 5432, "ip": "10.50.27.84", "status": 423}
+[2025-03-11T17:05:22Z] INFO Transaction rollback {"userId": 7651, "ip": "192.168.37.62"}
+[2025-02-24T03:58:13Z] WARN Invalid request parameters {"userId": 3927, "ip": "172.16.54.29", "requestId": "req-b8e2f7a5"}
+[2025-03-02T10:19:47Z] ERROR Database timeout {"userId": 8234, "ip": "10.92.16.73", "duration": 2973, "status": 500}
+[2025-03-08T15:43:31Z] DEBUG Authentication failed {"userId": 1567, "ip": "192.168.5.39"}
